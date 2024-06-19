@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 //Configuração servidor
 const app = express()
-const port = 3000
+const port = 10000
 
 app.listen(port, () => {
     console.log("Servidor rodando!")
